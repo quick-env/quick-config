@@ -1,0 +1,15 @@
+# Ignore artifacts:
+dist
+dist-electron
+CHANGELOG.md
+*.yaml
+*.md
+*.config.ts
+.vscode/*
+*.config.js
+*.json
+index.html
+*.js
+*.cjs
+*.mjs
+*.d.ts

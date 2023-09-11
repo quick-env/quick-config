@@ -1,6 +1,5 @@
 # Ignore artifacts:
 dist
-dist-electron
 CHANGELOG.md
 *.yaml
 *.md

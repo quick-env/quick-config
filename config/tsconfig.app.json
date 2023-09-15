@@ -1,0 +1,29 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.dom.json",
+	"include": ["./src/**/*.ts", "./src/**/*.vue", "./src/**/*.tsx", "./src/**/**/*.vue"],
+	"exclude": ["./src/**/__tests__/*", "./vite.config.ts"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"composite": true,
+		"emitDecoratorMetadata": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+		"skipLibCheck": true,
+		"noEmit": true,
+		"allowJs": true,
+		"experimentalDecorators": true,
+		// 如果找不到模块或类型声明，记得加下面这句
+		"types": ["vite/client", "./env.d.ts"]
+	}
+}

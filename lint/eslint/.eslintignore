@@ -1,0 +1,9 @@
+dist
+output
+*.js
+*.d.ts
+*.config.ts
+.vscode
+.husky
+*.config.js
+*.cjs

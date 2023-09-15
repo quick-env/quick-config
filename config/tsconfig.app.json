@@ -24,6 +24,6 @@
 		"allowJs": true,
 		"experimentalDecorators": true,
 		// 如果找不到模块或类型声明，记得加下面这句
-		"types": ["vite/client"]
+		"types": ["vite/client", "./env.d.ts"]
 	}
 }

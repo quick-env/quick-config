@@ -1,7 +1,7 @@
 #### 项目名称
 quick-config
 #### 项目描述
-quick config配置仓库，存放各端已配置完毕的构建工具，包括Electron/rollup/webpack/lint/tsconfig等
+quick config仓库，存放各端已配置完毕的构建工具，包括Electron/rollup/webpack/vite， 以及工程相关配置commitlint/eslint/prettier/tsconfig/postcss等
 
 #### 目录结构及使用
 

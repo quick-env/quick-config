@@ -102,18 +102,18 @@ module.exports = {
 		'@typescript-eslint/triple-slash-reference': 0,
 		// 不允许将类用作命名空间
 		'@typescript-eslint/no-extraneous-class': 2,
+		// 定义未使用的变量
+		'@typescript-eslint/no-unused-vars': 1,
 		//必须使用全等
 		eqeqeq: 2,
 		//限制行数
 		'max-lines': ['error', 1000],
 		// 限制单个函数复杂度
-		complexity: ['error', 6],
+		complexity: ['error', 10],
 		// 强制 getter 函数中出现 return 语句
 		'getter-return': 1,
 		// await必须使用async
 		'require-await': 'error',
-		// 定义未使用的变量
-		'no-unused-vars': 1,
 		// 建议使用let或const
 		'no-var': 2,
 		'vue/no-deprecated-slot-attribute': 0,
